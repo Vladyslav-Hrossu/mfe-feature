@@ -1,0 +1,12 @@
+.form {
+  &__container {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    padding: 1rem;
+  }
+
+  &__save-button {
+    width: 10rem;
+  }
+}

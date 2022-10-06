@@ -1,0 +1,7 @@
+<form class="form__container" [formGroup]="patientForm">
+    <div><input formControlName="name" type="text"></div>
+    <div><input formControlName="surname" type="text"></div>
+    <div><input formControlName="appointmentDate" type="date"></div>
+
+    <button [disabled]="patientForm.invalid" class="form__save-button" type="button" (click)="addPatient()">Save</button>
+</form>
